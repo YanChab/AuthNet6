@@ -107,39 +107,6 @@
         }
       },
       {
-        "HashCode": -193851631,
-        "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.Utilisateurs",
-        "AssemblyName": "AuthNet6.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Utilisateurs"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs"
-        }
-      },
-      {
-        "HashCode": 1247320852,
-        "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.Utilisateurs",
-        "AssemblyName": "AuthNet6.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AuthNet6.Client.Pages.Utilisateurs"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1819418317,
         "Kind": "Components.Component",
         "Name": "AuthNet6.Client.Pages.Accordeon",
@@ -268,6 +235,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "AuthNet6.Client.Pages.Navbar",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -193851631,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Pages.Utilisateurs",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Utilisateurs"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs"
+        }
+      },
+      {
+        "HashCode": 1247320852,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Pages.Utilisateurs",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthNet6.Client.Pages.Utilisateurs"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
