@@ -1,0 +1,105 @@
+﻿@page "/utilisateurs"
+@using AuthNet6.Shared
+@inject HttpClient Http
+@attribute [Authorize(Roles ="admin")]
+
+<PageTitle>Weather forecast</PageTitle>
+
+<div>
+    <h2>Ajouter un utilisateur</h2>
+    <EditForm Model="user" OnValidSubmit="CreateUser">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+        <label for="name">Renseignez votre nom:</label>
+        <InputText id="name" @bind-Value="user.Username"></InputText>
+        <label for="role">Renseignez votre nom:</label>
+        <InputSelect id="role" @bind-Value="user.Role">
+        <option>admin</option>
+        <option>utilisateur</option>
+        </InputSelect>
+        <button type="submit">Enregistrer</button>
+    </EditForm>
+</div>
+
+
+@if (_Users == null)
+{
+    <p><em>loading...</em></p>
+}
+else
+{
+    <div>
+    <h3>Nombre d'utilisateur : @NBUsers</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom d'utilisateur</th>
+                <th>Rôle</th>
+                <th>Date de création</th>
+
+            </tr>
+        </thead>
+        <tbody class="Curseur">
+            @foreach (var _user in _Users)
+                {
+                    @if (_user.Id == IdUser)
+                    {
+                        <tr class="Surligne" @onclick="()=>SelectUser(_user.Id)">
+                            <td>@_user.Username</td>
+                            <td>@_user.Role</td>
+                            <td>@_user.CreationDate</td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr @onclick="()=>SelectUser(_user.Id)">
+                            <td>@_user.Username</td>
+                            <td>@_user.Role</td>
+                            <td>@_user.CreationDate.ToString("dd/MM/yyyy")</td>
+                        </tr>
+                    }
+
+                }
+
+
+            </tbody>
+        </table>
+        <h3>Utilisateur sélectionné : @IdUser</h3>
+        <button @onclick="DeleteUser">Effacer utilisateur</button>
+    </div>
+}
+@code {
+    protected List<User> _Users;
+    private User user = new User();
+    private int NBUsers;
+    private string IdUser;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        _Users = await Http.GetFromJsonAsync<List<User>>("api/user");
+        NBUsers = _Users.Count<User>();
+
+    }
+
+    private async void CreateUser()
+    {
+        user.CreationDate = DateTime.Now;
+        await Http.PostAsJsonAsync("api/user/create", user);
+        _Users = await Http.GetFromJsonAsync<List<User>>("api/user");
+        StateHasChanged();
+    }
+
+    private void SelectUser(string UserId)
+    {
+        IdUser = UserId;
+       
+
+
+    }
+    private async void DeleteUser()
+    {
+        await Http.DeleteAsync("api/user/delete/"+ IdUser);
+        _Users = await Http.GetFromJsonAsync<List<User>>("api/user");
+            IdUser=null;
+        StateHasChanged();
+    }
+}

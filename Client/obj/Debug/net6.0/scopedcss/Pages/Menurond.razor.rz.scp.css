@@ -1,0 +1,117 @@
+*[b-1dkvadh89b],
+[b-1dkvadh89b]::before,
+[b-1dkvadh89b]::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.rondback[b-1dkvadh89b]{
+    background: lightblue;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.btn-open[b-1dkvadh89b]{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 10;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
+.ligne[b-1dkvadh89b]{
+    width: 40px;
+    height: 4px;
+    border-radius: 5px;
+    position: fixed;
+    background: #333;
+    top: 58px;
+    right: 40px;
+    z-index: 50;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+.ligne[b-1dkvadh89b]::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    height: 4px;
+    border-radius: 5px;
+    width: 100%;
+    background: #333;
+    transition: all 0.2s ease-in-out;
+}
+.ligne[b-1dkvadh89b]::after{
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    height: 4px;
+    border-radius: 5px;
+    width: 100%;
+    background: #333;
+    transition: all 0.2s ease-in-out;
+}
+.ligne.active[b-1dkvadh89b]::before{
+    top: 0;
+}
+.ligne.active[b-1dkvadh89b]::after{
+    bottom: 0;
+    transform: rotate(90deg);
+}
+
+h1[b-1dkvadh89b]{
+    padding: 100px 200px;
+    color: #333;
+}
+.items[b-1dkvadh89b]{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(rgba(0,0,0,1),rgba(0,0,0,0.0));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    cursor: pointer;
+    color: #f1f1f1;
+    visibility: hidden;
+    opacity: 0;
+}
+.items:nth-child(2)[b-1dkvadh89b]{
+    right: 320px;
+    top: 40px;
+}
+.items:nth-child(3)[b-1dkvadh89b]{
+    right: 275px;
+    top: 150px;
+}
+.items:nth-child(4)[b-1dkvadh89b]{
+    right: 185px;
+    top: 240px;
+}
+.items:nth-child(5)[b-1dkvadh89b]{
+    right: 70px;
+    top: 300px;
+}
+
+.btn-open.active[b-1dkvadh89b]{
+    transform: scale(10);
+}
+
+.items.apparition[b-1dkvadh89b]{
+    visibility: visible;
+}
+.items.real[b-1dkvadh89b]{
+    opacity: 1;
+    transition: all 0.2s 0.2s ease-in-out;
+}

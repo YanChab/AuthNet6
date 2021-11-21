@@ -1,0 +1,28 @@
+@page "/navbar"
+
+<nav>
+    <ul class="liste-nav @NavMenuCssClass">
+        <li class="item" >
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true" ></span> Home
+            </NavLink>
+        </li>
+        <li class="item" @onclick="togglemenu">Services</li>
+        <li class="item" @onclick="togglemenu">Promotion</li>
+        <li class="item" @onclick="togglemenu">Tarif</li>
+        <li class="item" @onclick="togglemenu">Contact</li>
+    </ul>
+    <div class="btn-responsive-menu @NavMenuCssClass" @onclick="togglemenu">
+        <div class="lignes"></div>
+        <div class="lignes"></div>
+        <div class="lignes"></div>
+    </div>
+</nav>
+@code{
+    private bool collapseNavMenu = false;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "active-menu" : null;
+    private void togglemenu(){
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

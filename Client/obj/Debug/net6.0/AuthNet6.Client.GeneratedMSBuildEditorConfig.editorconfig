@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = AuthNet6.Client
+build_property.RootNamespace = AuthNet6.Client
+build_property.ProjectDir = c:\Users\ychab\Repos\AuthNet6\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\ychab\Repos\AuthNet6\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/ychab/Repos/AuthNet6/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ychab/Repos/AuthNet6/Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ychab/Repos/AuthNet6/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ychab/Repos/AuthNet6/Client/Pages/Utilisateurs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXRpbGlzYXRldXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ychab/Repos/AuthNet6/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ychab/Repos/AuthNet6/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ychab/Repos/AuthNet6/Client/Pages/Accordeon.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3JkZW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-6q041abcup
+
+[c:/Users/ychab/Repos/AuthNet6/Client/Pages/Blobmenu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvYm1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0k7qv2xzse
+
+[c:/Users/ychab/Repos/AuthNet6/Client/Pages/Menurond.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudXJvbmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1dkvadh89b
+
+[c:/Users/ychab/Repos/AuthNet6/Client/Pages/Navbar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmF2YmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-x47aidljjj
+
+[c:/Users/ychab/Repos/AuthNet6/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-q17jganqgk
+
+[c:/Users/ychab/Repos/AuthNet6/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-cnv2rft4no

@@ -1,0 +1,68 @@
+@page "/accordeon"
+
+
+<nav class="menu-accordeon">
+    <div class="logo-container">
+        <span>Mon Logo</span>
+    </div>
+    <ul>
+        <li class="items @DerouleMenu[1]">
+            <div class="heading" @onclick="()=>OpenMenu(1)">
+                <span class="txt-titre">Archives</span>
+                <span class="oi oi-chevron-right @DerouleMenu[1]"></span>
+            </div>
+            <a href="">Nv Fichier</a>
+            <a href="">Enregistrer</a>
+            <a href="">Enregistrer sous</a>
+            <a href="">Quitter</a>
+        </li>
+        <li class="items @DerouleMenu[2]">
+            <div class="heading" @onclick="()=>OpenMenu(2)">
+                <span class="txt-titre">Nouveautés</span>
+                <span class="oi oi-chevron-right @DerouleMenu[2]"></span>
+            </div>
+            <a href="">Nv Fichier</a>
+            <a href="">Enregistrer</a>
+            <a href="">Enregistrer sous</a>
+            <a href="">Quitter</a>
+        </li>
+        <li class="items @DerouleMenu[3]">
+            <div class="heading" @onclick="()=>OpenMenu(3)">
+                <span class="txt-titre">Avancés</span>
+                <span class="oi oi-chevron-right @DerouleMenu[3]"></span>
+            </div>
+            <a href="">Nv Fichier</a>
+            <a href="">Enregistrer</a>
+            <a href="">Enregistrer sous</a>
+            <a href="">Quitter</a>
+        </li>
+        <li class="items @DerouleMenu[4]">
+            <div class="heading" @onclick="()=>OpenMenu(4)">
+                <span class="txt-titre">Public</span>
+                <span class="oi oi-chevron-right @DerouleMenu[4]"></span>
+            </div>
+            <a href="">Nv Fichier</a>
+            <a href="">Enregistrer</a>
+            <a href="">Enregistrer sous</a>
+            <a href="">Quitter</a>
+        </li>
+    </ul>
+</nav>
+
+<main>
+    <h1>Un menu menu-accordeon</h1>
+    <p class="txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit enim ipsa blanditiis nulla ab iste
+        totam temporibus tempora quod sint, quo neque ducimus, ad, illum ea at reiciendis esse minima.</p>
+</main>
+
+@code {
+    private bool[] activeMenu = {false, false,false,false,false};
+
+    private string?[] DerouleMenu = {null,null,null,null,null};
+    
+    private void OpenMenu(int menunum)
+    {
+        activeMenu[menunum] = !activeMenu[menunum];
+        DerouleMenu[menunum]=activeMenu[menunum]? "active" : null;       
+    }
+}

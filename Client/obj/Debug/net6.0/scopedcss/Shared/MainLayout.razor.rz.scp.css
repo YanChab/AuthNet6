@@ -1,0 +1,38 @@
+.page[b-q17jganqgk] {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-q17jganqgk] {
+    margin: 0%;
+    padding: 0%;
+    
+    width: 100%;
+    
+}
+
+.sidebar[b-q17jganqgk] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+
+
+@media (max-width: 640.98px) {
+   
+}
+
+@media (min-width: 641px) {
+    .page[b-q17jganqgk] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-q17jganqgk] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+   
+}

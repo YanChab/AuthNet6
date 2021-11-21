@@ -1,0 +1,33 @@
+@page "/menurond"
+<div class="rondback">
+<div class="btn-open @dropmenu" @onclick="togglemenu"></div>
+
+<div class="items @appearItem @realItem" @onclick="togglemenu">
+    <h3 class="menu">M1</h3>
+</div>
+<div class="items @appearItem @realItem" @onclick="togglemenu">
+    <h3 class="menu">M2</h3>
+</div>
+<div class="items @appearItem @realItem" @onclick="togglemenu">
+    <h3 class="menu">M3</h3>
+</div>
+<div class="items @appearItem @realItem" @onclick="togglemenu">
+    <h3 class="menu">M4</h3>
+</div>
+
+<div class="ligne @dropmenu"></div>
+
+<h1>Lorem ipsum dolor sit amet.</h1>
+</div>
+
+@code{
+    private bool activeMenu = false;
+
+    private string? dropmenu => activeMenu ? "active" : null;
+    private string? appearItem=> activeMenu ? "apparition" : null;
+    private string? realItem=> activeMenu ? "real" : null;
+    private void togglemenu(){
+        activeMenu = !activeMenu;
+        
+    }
+}

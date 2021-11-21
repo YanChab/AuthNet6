@@ -1,0 +1,27 @@
+@page "/blobmenu"
+<div class="blockback">
+<div class="container-menu @NavMenuCssClass">
+    <div class="btn-menu" @onclick="togglemenu">
+        <div class="ligne"></div>
+    </div>
+    <div class="blob blob-1"><NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true" ></span>
+            </NavLink></div>
+    <div class="blob blob-2">M2</div>
+    <div class="blob blob-3">M3</div>
+    <div class="blob blob-4">M4</div>
+    <div class="blob blob-5">M5</div>
+    <div class="blob blob-6">M6</div>
+    <div class="blob blob-7">M7</div>
+    <div class="blob blob-8">M8</div>
+</div>
+</div>
+
+@code{
+    private bool activeMenu = false;
+
+    private string? NavMenuCssClass => activeMenu ? "active" : null;
+    private void togglemenu(){
+        activeMenu = !activeMenu;
+    }
+}

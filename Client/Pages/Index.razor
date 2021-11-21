@@ -1,0 +1,60 @@
+﻿@page "/"
+@using System.Security.Claims
+@inject ILocalStorageService LocalStorage
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+<AuthorizeView Context="Auth">
+    <Authorized>
+        <span>Hi, @Auth.User.Identity.Name, </span>
+        <br>
+        <button @onclick="Logout" class="btn btn-primary">Logout</button>
+        <br>
+    </Authorized>
+
+    <NotAuthorized>
+        <EditForm Model="user" OnValidSubmit="HandleLogin">
+            <DataAnnotationsValidator></DataAnnotationsValidator>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <InputText id="username" @bind-Value="user.Username" class="form-control"></InputText>
+            </div>            
+            <button type="submit" class="btn btn-primary">Login</button>
+            <ValidationSummary></ValidationSummary>
+        </EditForm>
+    </NotAuthorized>
+
+</AuthorizeView>
+<AuthorizeView Roles="admin">
+    <Authorized>
+        <h2>Vous êtes admin</h2>
+    </Authorized>
+
+</AuthorizeView>
+
+
+
+Welcome to your new app.
+
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code {
+    private User user = new User();
+   
+    private async void HandleLogin()
+    {
+        await LocalStorage.SetItemAsync<string?>("AuthToken", user.Username);
+        var state = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        
+    }
+    private async void Logout()
+    {
+        await LocalStorage.RemoveItemAsync("AuthToken");
+        await AuthenticationStateProvider.GetAuthenticationStateAsync();
+
+    }
+}
