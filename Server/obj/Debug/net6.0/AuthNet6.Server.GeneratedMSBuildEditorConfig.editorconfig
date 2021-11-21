@@ -8,13 +8,13 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AuthNet6.Server
 build_property.RootNamespace = AuthNet6.Server
-build_property.ProjectDir = c:\Users\ychab\Repos\AuthNet6\Server\
+build_property.ProjectDir = C:\Users\ychab\Repos\AuthNet6\Server\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\ychab\Repos\AuthNet6\Server
+build_property.MSBuildProjectDirectory = C:\Users\ychab\Repos\AuthNet6\Server
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/ychab/Repos/AuthNet6/Server/Pages/Error.cshtml]
+[C:/Users/ychab/Repos/AuthNet6/Server/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

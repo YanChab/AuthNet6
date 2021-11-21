@@ -4559,35 +4559,35 @@
         }
       },
       {
-        "HashCode": 141897492,
+        "HashCode": -193851631,
         "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.App",
+        "Name": "AuthNet6.Client.Pages.Utilisateurs",
         "AssemblyName": "AuthNet6.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Utilisateurs"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.App"
+          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs"
         }
       },
       {
-        "HashCode": 486929469,
+        "HashCode": 1247320852,
         "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.App",
+        "Name": "AuthNet6.Client.Pages.Utilisateurs",
         "AssemblyName": "AuthNet6.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AuthNet6.Client.App"
+            "TagName": "AuthNet6.Client.Pages.Utilisateurs"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.App",
+          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -4654,39 +4654,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "AuthNet6.Client.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -193851631,
-        "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.Utilisateurs",
-        "AssemblyName": "AuthNet6.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Utilisateurs"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs"
-        }
-      },
-      {
-        "HashCode": 1247320852,
-        "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.Utilisateurs",
-        "AssemblyName": "AuthNet6.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AuthNet6.Client.Pages.Utilisateurs"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -4819,6 +4786,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "AuthNet6.Client.Pages.Navbar",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 141897492,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.App",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.App"
+        }
+      },
+      {
+        "HashCode": 486929469,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.App",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthNet6.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

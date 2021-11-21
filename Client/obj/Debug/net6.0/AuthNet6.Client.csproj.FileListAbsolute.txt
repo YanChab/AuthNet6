@@ -857,3 +857,4 @@ C:\Users\ychab\Repos\AuthNet6\Client\obj\Debug\net6.0\scopedcss\Pages\Navbar.raz
 C:\Users\ychab\Repos\AuthNet6\Client\obj\Debug\net6.0\scopedcss\Pages\Blobmenu.razor.rz.scp.css
 C:\Users\ychab\Repos\AuthNet6\Client\obj\Debug\net6.0\scopedcss\Pages\Accordeon.razor.rz.scp.css
 C:\Users\ychab\Repos\AuthNet6\Client\obj\Debug\net6.0\scopedcss\Pages\Menurond.razor.rz.scp.css
+C:\Users\ychab\Repos\AuthNet6\Client\obj\Debug\net6.0\scopedcss\Pages\DropDownMenu.razor.rz.scp.css

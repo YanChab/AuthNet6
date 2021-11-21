@@ -173,39 +173,6 @@
         }
       },
       {
-        "HashCode": -408010935,
-        "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.Menurond",
-        "AssemblyName": "AuthNet6.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Menurond"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.Menurond"
-        }
-      },
-      {
-        "HashCode": -789559620,
-        "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.Menurond",
-        "AssemblyName": "AuthNet6.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AuthNet6.Client.Pages.Menurond"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.Menurond",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1316615945,
         "Kind": "Components.Component",
         "Name": "AuthNet6.Client.Pages.Navbar",
@@ -268,6 +235,72 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -408010935,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Pages.Menurond",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Menurond"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Pages.Menurond"
+        }
+      },
+      {
+        "HashCode": -789559620,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Pages.Menurond",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthNet6.Client.Pages.Menurond"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Pages.Menurond",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 118672073,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Pages.DropDownMenu",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DropDownMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Pages.DropDownMenu"
+        }
+      },
+      {
+        "HashCode": 1916981206,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Pages.DropDownMenu",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthNet6.Client.Pages.DropDownMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Pages.DropDownMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14557,6 +14590,11 @@
     {
       "FilePath": "c:\\Users\\ychab\\Repos\\AuthNet6\\Client\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\ychab\\Repos\\AuthNet6\\Client\\Pages\\DropDownMenu.razor",
+      "TargetPath": "Pages\\DropDownMenu.razor",
       "FileKind": "component"
     },
     {
