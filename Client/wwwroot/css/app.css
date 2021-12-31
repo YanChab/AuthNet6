@@ -37,7 +37,70 @@ a, .btn-link {
 .Surligne{
     background-color: #b32121;
 }
+.jobs-container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.job-status {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+}
+
+    .job-status ul {
+        flex: 1;
+    }
+
+.dropzone {
+    padding: 30px;
+    border: 3px dashed #0e6275;
+    list-style: none;
+}
+
+.no-drop {
+    border: 5px dashed red;
+}
+
+.can-drop {
+    border: 2px dashed green;
+}
+
+.draggable {
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    border: 1px solid #424d5c;
+    cursor: grab;
+    background: #5c6b7f;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.draggable:active {
+    cursor: grabbing;
+}
+
+.dragging {
+    cursor: grabbing;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.last-updated {
+    margin-bottom: 0;
+    font-size: 11px;
+    color: #e1e5ea;
+    font-weight: bold;
+}
+
+    .last-updated small {
+        text-transform: uppercase;
+        color: #c4cbd4;
+        font-size: 11px;
+    }
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;

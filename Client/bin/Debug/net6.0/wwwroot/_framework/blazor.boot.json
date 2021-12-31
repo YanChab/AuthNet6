@@ -204,15 +204,15 @@
       "mscorlib.dll": "sha256-tlYWYAypJO+6gsCjV734iAJn8xcZYhUjM7vgxDLJluE=",
       "netstandard.dll": "sha256-E48Na3ZQWKExltzTwgP0Ao+UqWhiVYeerXfUL9lEc+c=",
       "System.Private.CoreLib.dll": "sha256-J85Z1XnwapHef31sR58JFq+0HrFP5BjOoObPKjdFHCw=",
-      "AuthNet6.Shared.dll": "sha256-9molBls2OJ\/6E6+ex0+onVMoaFEl41L4Ghdp1HL7co8=",
-      "AuthNet6.Client.dll": "sha256-5w1LBxgR7PRaFB3i29T\/eoL0yWFYgJHfr\/ptpZlMn4w="
+      "AuthNet6.Shared.dll": "sha256-nHWx29E9RSQESzreGjNDB8bP612YidsfJR3oAFk6mwQ=",
+      "AuthNet6.Client.dll": "sha256-+dRBtuNpir8s08t0WVhUktTFX08IkH2+nHJi7dGaefY="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "AuthNet6.Shared.pdb": "sha256-LqK18FdFuu1NH1jZyIkuekbMXOVZAEsCXScxTpvExsI=",
-      "AuthNet6.Client.pdb": "sha256-7fDnleR5sUC8dpwA7uwtKDrL\/Mlr\/EVZCoomjHJO1KI="
+      "AuthNet6.Shared.pdb": "sha256-8QI9jT8Ef8CcoEyVhYIbYNJVXI\/jq3dvYxF87i7XXRs=",
+      "AuthNet6.Client.pdb": "sha256-s\/fDN+eLdEwFcjOQSLNtf\/THS9u9p+kY1gqjPs8bGlA="
     },
     "runtime": {
       "dotnet.6.0.0.4krur5mnqh.js": "sha256-LOq52qjRa3+zt3w4UL10rS3UdwHxVQxW0JAsMPO9QAM=",

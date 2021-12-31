@@ -1,0 +1,11 @@
+.titre{
+    width: 100%;    
+    color: brown;
+    background-color: cornflowerblue;
+    
+
+}
+.centerer{
+    justify-content: center;
+    align-items: center;
+}

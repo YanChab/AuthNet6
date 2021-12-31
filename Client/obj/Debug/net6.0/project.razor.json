@@ -107,6 +107,39 @@
         }
       },
       {
+        "HashCode": -193851631,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Pages.Utilisateurs",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Utilisateurs"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs"
+        }
+      },
+      {
+        "HashCode": 1247320852,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Pages.Utilisateurs",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthNet6.Client.Pages.Utilisateurs"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1819418317,
         "Kind": "Components.Component",
         "Name": "AuthNet6.Client.Pages.Accordeon",
@@ -173,68 +206,35 @@
         }
       },
       {
-        "HashCode": 1316615945,
+        "HashCode": 118672073,
         "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.Navbar",
+        "Name": "AuthNet6.Client.Pages.DropDownMenu",
         "AssemblyName": "AuthNet6.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Navbar"
+            "TagName": "DropDownMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.Navbar"
+          "Common.TypeName": "AuthNet6.Client.Pages.DropDownMenu"
         }
       },
       {
-        "HashCode": 600508736,
+        "HashCode": 1916981206,
         "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.Navbar",
+        "Name": "AuthNet6.Client.Pages.DropDownMenu",
         "AssemblyName": "AuthNet6.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AuthNet6.Client.Pages.Navbar"
+            "TagName": "AuthNet6.Client.Pages.DropDownMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.Navbar",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -193851631,
-        "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.Utilisateurs",
-        "AssemblyName": "AuthNet6.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Utilisateurs"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs"
-        }
-      },
-      {
-        "HashCode": 1247320852,
-        "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.Utilisateurs",
-        "AssemblyName": "AuthNet6.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AuthNet6.Client.Pages.Utilisateurs"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.Utilisateurs",
+          "Common.TypeName": "AuthNet6.Client.Pages.DropDownMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -272,35 +272,318 @@
         }
       },
       {
-        "HashCode": 118672073,
+        "HashCode": 1316615945,
         "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.DropDownMenu",
+        "Name": "AuthNet6.Client.Pages.Navbar",
         "AssemblyName": "AuthNet6.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DropDownMenu"
+            "TagName": "Navbar"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.DropDownMenu"
+          "Common.TypeName": "AuthNet6.Client.Pages.Navbar"
         }
       },
       {
-        "HashCode": 1916981206,
+        "HashCode": 600508736,
         "Kind": "Components.Component",
-        "Name": "AuthNet6.Client.Pages.DropDownMenu",
+        "Name": "AuthNet6.Client.Pages.Navbar",
         "AssemblyName": "AuthNet6.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AuthNet6.Client.Pages.DropDownMenu"
+            "TagName": "AuthNet6.Client.Pages.Navbar"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AuthNet6.Client.Pages.DropDownMenu",
+          "Common.TypeName": "AuthNet6.Client.Pages.Navbar",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 7229848,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Pages.Trello",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Trello"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Pages.Trello"
+        }
+      },
+      {
+        "HashCode": -1074304236,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Pages.Trello",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthNet6.Client.Pages.Trello"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Pages.Trello",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -61724915,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Shared.Job",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Job"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "JobModel",
+            "TypeName": "AuthNet6.Shared.JobModel",
+            "Metadata": {
+              "Common.PropertyName": "JobModel"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Shared.Job"
+        }
+      },
+      {
+        "HashCode": 1073764388,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Shared.Job",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthNet6.Client.Shared.Job"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "JobModel",
+            "TypeName": "AuthNet6.Shared.JobModel",
+            "Metadata": {
+              "Common.PropertyName": "JobModel"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Shared.Job",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1494127111,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Shared.JobList",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JobList"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ListStatus",
+            "TypeName": "AuthNet6.Shared.JobStatuses",
+            "IsEnum": true,
+            "Metadata": {
+              "Common.PropertyName": "ListStatus"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AllowedStatuses",
+            "TypeName": "AuthNet6.Shared.JobStatuses[]",
+            "Metadata": {
+              "Common.PropertyName": "AllowedStatuses"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Shared.JobList"
+        }
+      },
+      {
+        "HashCode": -169898766,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Shared.JobList",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthNet6.Client.Shared.JobList"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ListStatus",
+            "TypeName": "AuthNet6.Shared.JobStatuses",
+            "IsEnum": true,
+            "Metadata": {
+              "Common.PropertyName": "ListStatus"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AllowedStatuses",
+            "TypeName": "AuthNet6.Shared.JobStatuses[]",
+            "Metadata": {
+              "Common.PropertyName": "AllowedStatuses"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Shared.JobList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1784898591,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Shared.JobsContainer",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JobsContainer"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Jobs",
+            "TypeName": "System.Collections.Generic.List<AuthNet6.Shared.JobModel>",
+            "Metadata": {
+              "Common.PropertyName": "Jobs"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnStatusUpdated",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<AuthNet6.Shared.JobModel>",
+            "Metadata": {
+              "Common.PropertyName": "OnStatusUpdated",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Shared.JobsContainer"
+        }
+      },
+      {
+        "HashCode": 1867891804,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Shared.JobsContainer",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthNet6.Client.Shared.JobsContainer"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Jobs",
+            "TypeName": "System.Collections.Generic.List<AuthNet6.Shared.JobModel>",
+            "Metadata": {
+              "Common.PropertyName": "Jobs"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnStatusUpdated",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<AuthNet6.Shared.JobModel>",
+            "Metadata": {
+              "Common.PropertyName": "OnStatusUpdated",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Shared.JobsContainer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1175403908,
+        "Kind": "Components.ChildContent",
+        "Name": "AuthNet6.Client.Shared.JobsContainer.ChildContent",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "JobsContainer"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "AuthNet6.Client.Shared.JobsContainer.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -1528231406,
+        "Kind": "Components.ChildContent",
+        "Name": "AuthNet6.Client.Shared.JobsContainer.ChildContent",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "AuthNet6.Client.Shared.JobsContainer"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "AuthNet6.Client.Shared.JobsContainer.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -483,6 +766,114 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "AuthNet6.Client.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1260940228,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Shared.Tooltip",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Tooltip"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Text",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Text"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Shared.Tooltip"
+        }
+      },
+      {
+        "HashCode": 1510727133,
+        "Kind": "Components.Component",
+        "Name": "AuthNet6.Client.Shared.Tooltip",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthNet6.Client.Shared.Tooltip"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Text",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Text"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AuthNet6.Client.Shared.Tooltip",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 757944151,
+        "Kind": "Components.ChildContent",
+        "Name": "AuthNet6.Client.Shared.Tooltip.ChildContent",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Tooltip"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "AuthNet6.Client.Shared.Tooltip.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -22638043,
+        "Kind": "Components.ChildContent",
+        "Name": "AuthNet6.Client.Shared.Tooltip.ChildContent",
+        "AssemblyName": "AuthNet6.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "AuthNet6.Client.Shared.Tooltip"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "AuthNet6.Client.Shared.Tooltip.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14593,6 +14984,26 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\ychab\\Repos\\AuthNet6\\Client\\Shared\\JobsContainer.razor",
+      "TargetPath": "Shared\\JobsContainer.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\ychab\\Repos\\AuthNet6\\Client\\Shared\\Tooltip.razor",
+      "TargetPath": "Shared\\Tooltip.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\ychab\\Repos\\AuthNet6\\Client\\Shared\\JobList.razor",
+      "TargetPath": "Shared\\JobList.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\ychab\\Repos\\AuthNet6\\Client\\Shared\\Job.razor",
+      "TargetPath": "Shared\\Job.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\ychab\\Repos\\AuthNet6\\Client\\Pages\\DropDownMenu.razor",
       "TargetPath": "Pages\\DropDownMenu.razor",
       "FileKind": "component"
@@ -14610,6 +15021,11 @@
     {
       "FilePath": "c:\\Users\\ychab\\Repos\\AuthNet6\\Client\\Pages\\Menurond.razor",
       "TargetPath": "Pages\\Menurond.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\ychab\\Repos\\AuthNet6\\Client\\Pages\\Trello.razor",
+      "TargetPath": "Pages\\Trello.razor",
       "FileKind": "component"
     },
     {
